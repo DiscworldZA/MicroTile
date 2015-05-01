@@ -1,0 +1,16 @@
+[
+{
+  "modid": "MT",
+  "name": "MicroTile",
+  "description": "Mod that adds MicroBlocks which can actually be used.",
+  "version": "",
+  "mcversion": "",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "Copyright ©  2015",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
