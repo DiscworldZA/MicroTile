@@ -10,7 +10,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = MicroTile.MODID, name = MicroTile.MODNAME, version = MicroTile.VERSION)
+@Mod(modid = MicroTile.MODID, name = MicroTile.MODNAME, version = MicroTile.VERSION, dependencies = "after:ForgeMultipart")
 public class MicroTile
 {
 	public static final String MODID = "MT";
