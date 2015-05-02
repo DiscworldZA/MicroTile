@@ -1,11 +1,9 @@
 package net.microtile.part;
 
 import net.microtile.MicroTile;
-import net.microtile.tile.TileMultiTileProvider;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
 import codechicken.lib.vec.BlockCoord;
-import codechicken.multipart.MultipartGenerator;
 import codechicken.multipart.TMultiPart;
 
 public class PartTileProvider extends TMultiPart

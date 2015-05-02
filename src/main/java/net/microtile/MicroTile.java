@@ -1,10 +1,7 @@
 package net.microtile;
 
-import java.io.File;
-
 import net.microtile.event.BlockEventHandler;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.config.Configuration;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;

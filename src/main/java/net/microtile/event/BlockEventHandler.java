@@ -1,9 +1,7 @@
 package net.microtile.event;
 
-import codechicken.multipart.TMultiPart;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.event.world.BlockEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
 public class BlockEventHandler
 {
