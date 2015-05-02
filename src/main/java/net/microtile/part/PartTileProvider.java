@@ -14,11 +14,16 @@ public class PartTileProvider extends TMultiPart
 	private Block m_parent;
 	private TileEntity m_parentTile;
 	
+	public PartTileProvider(Block b)
+	{
+		m_parent = b;
+		m_parentTile = b.createTileEntity(tile().getWorldObj(), tile().blockMetadata);
+	}
 	
 	@Override
 	public String getType()
 	{
-		return MicroTile.MODID + "_multi_part_tile_provider";
+		return MicroTile.MODID + "_multi_part_tile_provider_" + m_parent.getUnlocalizedName();
 	}
 	
 	public void click()
