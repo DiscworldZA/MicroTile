@@ -1,0 +1,12 @@
+*.gradle/*
+*bin/*
+*eclipse/*
+*.classpath
+*.project
+*.settings
+*CREDITS*
+*forge*
+*gradle
+*gradlew*
+*LICENSE*
+*README*
