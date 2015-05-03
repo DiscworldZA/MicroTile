@@ -26,11 +26,6 @@ public class PartTileProvider extends TMultiPart
 		return MicroTile.MODID + "_multi_part_tile_provider_" + m_parent.getUnlocalizedName();
 	}
 	
-	public void click()
-	{
-		
-	}
-	
 	public Iterable<ItemStack> getDrops()
 	{
 		return m_parent.getDrops(tile().getWorldObj(), tile().xCoord, tile().yCoord, tile().zCoord, tile().blockMetadata, 0);
